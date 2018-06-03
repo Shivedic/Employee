@@ -238,8 +238,8 @@ Log.d("myTag", " Error : ", e);
             postRequest.createRequest(mContext, mContext.getResources().getString(R.string.mJSONURL_tasko), "POST", "loadTO", req);
         }catch(JSONException e){
             Log.d("myTag", "error : " + e, e);
+            Log.d("myTag", "error : " + e, e);
             e.printStackTrace();}
-
     }
 
     public static void loadToResponse(String response){
